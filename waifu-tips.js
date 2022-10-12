@@ -19,7 +19,7 @@
  ****************************************************************************************************/
 const live2d_settings = {
     // 基本设置
-    'modelUrl': 'https://jsd.cdn.zzko.cn/gh/lrplrplrp/live2d_api@master/model',                        // 存放模型的文件夹路径，末尾不需要斜杠
+    'modelUrl': 'https://jsd.cdn.zzko.cn/gh/lrplrplrp/live2d_api@master/model/genshin',                        // 存放模型的文件夹路径，末尾不需要斜杠
     'tipsMessage': 'waifu-tips.json',           // 看板娘提示消息文件的路径，可以留空不加载
     // 模型设置
     'modelName': 'paimon',                      // 默认加载的模型名称，仅在无本地记录的情况下有效
@@ -60,7 +60,7 @@ const live2d_settings = {
 // 模型列表
 const live2d_models = [
     {
-         name: 'THl',                                     // 模型名称要与文件夹名相同
+         name: 'BCSZ1.1',                                     // 模型名称要与文件夹名相同
         message: 'THL',  // 切换时的提示信息
         version: 3,                                         // 模型版本，model3.json 结尾的都填3，model.json 结尾的填2
         // position: 'left'                                 // 此模型的显示位置，会覆盖上面的全局设置，只对此模型生效
